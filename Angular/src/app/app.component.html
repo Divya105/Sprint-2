@@ -1,0 +1,86 @@
+
+<header>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav" style="margin-left:auto;margin-right: auto;">
+        <span><a href="/">HOME</a></span>
+        
+        <span class="spacer"></span>
+        
+        <li class="nav-item"> <a  routerLink="myuser" routerLinkActive="active"> USER LIST </a>
+      
+          <li class="nav-item" ><a routerLink="add" routerLinkActive="active">  ADD USER  </a></li>
+      
+          <li><a href routerLink="login" routerLinkActive="active">  LOGIN  </a></li>
+          <span><a href="/">LOGOUT</a></span>
+        </ul>
+  </nav>
+</header>
+<body>
+  
+  <div class="column" style="background-color:rgb(122, 243, 122)">
+
+      <div class="col-sm-6">
+          <table>
+              <tr>
+                  <td>&nbsp;&nbsp;&nbsp;</td>
+                  <td>
+                    <a routerLink='home'><img
+                            src="/assets/img/app.png"
+                            style="width:500px;height:500px;border:0;" alt="Welcome To MyTest"></a>
+                </td>
+                  <td>
+                    <div style="text-align: center"  > 
+                      <h1> Welcome To MyTest</h1>
+                      <br>
+                     <u>
+                      <nav><a routerLink="register" routerLinkActive="active">Register Now</a>
+    
+                      </nav>
+                    </u>
+                      </div>
+                  </td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+</body>
+<router-outlet></router-outlet>
+  <footer class="footer-area footer--light"> 
+    <div class="footer-big">
+      <!-- start .container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <div class="footer-widget">
+              <div class="widget-about">
+                
+                <p>MyTest</p>
+                <ul class="contact-details">
+                  <li>
+                    <span class="icon-earphones"></span> Call Us:
+                    <a href="tel:543-749-100">543-749-100</a>
+                  </li>
+                  <li>
+                    <span class="icon-envelope-open"></span>
+                    <a href="mailto:test@gmail.com">test@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          <!--<br>
+      
+        <div style="text-align: center"   >   
+                      <h1>Welcome To MyTest</h1>
+                      <br>
+                  
+                      <nav><a routerLink="register" routerLinkActive="active">Register Now</a>
+    
+                      </nav>
+      </div>
+ 
+  <h1>Welcome To MyTest</h1>
+<br>-->
